@@ -1,0 +1,39 @@
+.doctor{
+  margin: 18px;
+  width: 200px;
+  background: #01a2ff26;
+  box-shadow: -3px 3px 8px 0 #006dac1a;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  &__name{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    font-weight: bold;
+
+  }
+  &__type{
+    margin: 0 0 16px 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__phone{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  &__address{
+    font-style: normal;
+    font-size: 11px;
+  }
+}
+
+.doctor-list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
